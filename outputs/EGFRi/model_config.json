@@ -1,0 +1,41 @@
+{
+  "INPUT_DIM_EXPR": 18232,
+  "INPUT_DIM_MUT": 14447,
+  "INPUT_DIM_CNA": 20503,
+  "HIDDEN_DIM_EXPR": 64,
+  "HIDDEN_DIM_MUT": 16,
+  "HIDDEN_DIM_CNA": 160,
+  "DRUG_EMB_DIM": 16,
+  "NUM_DRUGS": 5,
+  "Z_TOTAL": 184,
+  "DROPOUT_EXPR": 0.6,
+  "DROPOUT_MUT": 0.5,
+  "DROPOUT_CNA": 0.4,
+  "DROPOUT_CLS": 0.3,
+  "DRUG_TO_IDX": {
+    "Cetuximab": 0,
+    "Afatinib": 1,
+    "Erlotinib": 2,
+    "Gefitinib": 3,
+    "Lapatinib": 4
+  },
+  "best_params": {
+    "lr_expr": 0.000879,
+    "lr_mut": 0.000447,
+    "lr_cna": 3e-05,
+    "lr_cls": 0.009699482880133196,
+    "weight_decay": 0.0071253694108754624,
+    "dropout_expr": 0.6,
+    "dropout_mut": 0.5,
+    "dropout_cna": 0.4,
+    "dropout_cls": 0.3,
+    "gamma": 0.5579620592362088,
+    "margin": 1.9773400393437335,
+    "batch_size": 16,
+    "hidden_expr": 64,
+    "hidden_mut": 16,
+    "hidden_cna": 160,
+    "drug_emb_dim": 16
+  },
+  "threshold": 0.4
+}
